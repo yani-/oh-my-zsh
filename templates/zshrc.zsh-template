@@ -54,10 +54,13 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Add Ruby
-export PATH=/usr/ruby-latest/bin:$PATH
+PATH=/usr/local/ruby-latest/bin:$PATH
 
 # Add PHP
-export PATH=/usr/local/php-latest/bin:$PATH
+PATH=/usr/local/php-latest/bin:$PATH
+
+# Add NGINX
+PATH=/usr/local/nginx-latest/sbin:$PATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
