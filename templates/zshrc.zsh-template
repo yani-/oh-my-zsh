@@ -62,6 +62,9 @@ PATH=/usr/local/php-latest/bin:$PATH
 # Add NGINX
 PATH=/usr/local/nginx-latest/sbin:$PATH
 
+# Add NODEJS
+PATH=/usr/local/node-latest/bin:$PATH
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
